@@ -1,4 +1,3 @@
-import '../css/style.css'
-import initScrollReveal from './scroll-reveal';
+import '../css/style.css';
 
-initScrollReveal();
+console.log("Portfolio của Phạm Ngọc Kha đã sẵn sàng!");

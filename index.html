@@ -6,33 +6,38 @@
     <title>Pham Ngoc Kha | Portfolio</title>
 </head>
 <body>
+    <div id="top"></div>
+    
     <section class="min-h-screen w-full flex flex-col justify-center items-center bg-[url('/banner.avif')] bg-cover bg-center">
-        <div class="w-full lg:w-[80%] p-12 text-gray-800">
-            <h1 class="text-6xl font-bold mb-10 grid grid-cols-1 lg:gap-5">
-                <span>Hi, my name is <span class="text-teal-400">Pham Ngoc Kha</span></span>
-                <span>I'm the Web Developer.</span>
+        <div class="w-full lg:w-[80%] p-12">
+            <h1 class="text-6xl font-bold mb-10 text-gray-800 leading-tight">
+                Hi, my name is <span class="text-teal-400">Pham Ngoc Kha</span><br>
+                I'm the Web Developer.
             </h1>
-            <a href="#about-me" class="uppercase border-2 border-teal-400 p-3 hover:bg-teal-400 hover:text-white transition-all inline-block">
-                <span class="text-xl px-8 py-3 font-light">Know more</span>
+            <a href="#about" class="inline-block border-2 border-teal-400 px-10 py-4 text-teal-400 uppercase font-bold hover:bg-teal-400 hover:text-white transition-all">
+                Know more
             </a>
         </div>
     </section>
 
-    <section id="about-me" class="bg-teal-400 min-h-screen w-full flex flex-col justify-center items-center p-4 lg:p-12 text-white">
-        <div class="w-full lg:w-[60%] mb-5 text-center lg:text-left">
-            <h2 class="uppercase text-2xl lg:text-5xl font-bold mb-12 text-center">About Me</h2>
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-                <div class="flex justify-center">
-                    <img class="max-w-xs rounded-lg shadow-2xl" src="https://nguyenhuuquyen.com/imgs/avatar.png" alt="Avatar">
-                </div>
-                <div class="lg:col-span-2">
-                    <p class="text-lg font-light mb-8">I am a CSE student passionate about building modern web applications. I love programming and exploring software architecture.</p>
-                    <a href="#" class="border-2 border-white px-8 py-3 hover:bg-white hover:text-teal-400 transition-all uppercase">View My CV</a>
-                </div>
+    <section id="about" class="min-h-screen bg-teal-400 text-white flex flex-col justify-center items-center p-8 lg:p-24">
+        <h2 class="text-4xl font-bold uppercase mb-16">About Me</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-6xl">
+            <div class="flex justify-center">
+                <img src="https://nguyenhuuquyen.com/imgs/avatar.png" alt="Avatar" class="rounded-lg shadow-2xl w-64 h-64 object-cover">
+            </div>
+            <div class="lg:col-span-2 space-y-6">
+                <p class="text-xl font-light leading-relaxed">
+                    I am a Computer Science student at VNU. I love building beautiful and functional websites. 
+                    This project is my first step into the world of professional Web Development.
+                </p>
+                <a href="#" class="inline-block border-2 border-white px-8 py-3 uppercase font-bold hover:bg-white hover:text-teal-400 transition-all">
+                    View Resume
+                </a>
             </div>
         </div>
     </section>
 
-    <script type="module" src="src/scripts/application.js"></script>
+    <script type="module" src="./src/scripts/application.js"></script>
 </body>
 </html>
